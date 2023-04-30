@@ -1,0 +1,95 @@
+[
+  {
+    "author": "Sarah Ahmad",
+    "date": "1-4-2019",
+    "text": "A customer called and complained about the quality of our products and requested a refund",
+    "updates": [
+      {
+        "author": "Jawad Al-Amir",
+        "date": "5-4-2019",
+        "text": "I called the customer back and arranged for a refund"
+      },
+      {
+        "author": "Salem Aziz",
+        "date": "6-4-2019",
+        "text": "A refund wouldn't apply in this situation, you should've called your supervisor"
+      }
+    ]
+  },
+  {
+    "author": "Nawras Sayyed",
+    "date": "6-2-2023",
+    "text": "There are three complaints from the same customer regarding shipping time",
+    "updates": []
+  },
+  {
+    "author": "Ahmed Ali",
+    "date": "12-3-2022",
+    "text": "A customer requested an exchange for a different size",
+    "updates": [
+      {
+        "author": "Mariam Al-Khalil",
+        "date": "14-3-2022",
+        "text": "I checked and the requested size is out of stock. I offered a refund instead but the customer declined"
+      }
+    ]
+  },
+  {
+    "author": "Khaled Hussein",
+    "date": "2-1-2021",
+    "text": "A customer reported a missing item from their order",
+    "updates": [
+      {
+        "author": "Ali Saad",
+        "date": "3-1-2021",
+        "text": "I checked and found that the item was indeed missing. I arranged for it to be shipped to the customer separately"
+      },
+      {
+        "author": "Faisal Hasan",
+        "date": "4-1-2021",
+        "text": "The missing item was found in the warehouse and I informed the customer about it. They requested to keep it anyway"
+      }
+    ]
+  },
+  {
+    "author": "Hala Rizk",
+    "date": "15-5-2022",
+    "text": "A customer complained about the delivery person being rude",
+    "updates": [
+      {
+        "author": "Yara Ahmed",
+        "date": "17-5-2022",
+        "text": "I apologized to the customer and promised to address the issue with the delivery company"
+      }
+    ]
+  },
+  {
+    "author": "Omar Salim",
+    "date": "8-11-2021",
+    "text": "A customer received a damaged product",
+    "updates": [
+      {
+        "author": "Aya Khalifa",
+        "date": "10-11-2021",
+        "text": "I arranged for a replacement to be sent to the customer"
+      },
+      {
+        "author": "Samar Hamed",
+        "date": "12-11-2021",
+        "text": "The replacement arrived and the customer confirmed that it was in good condition"
+      }
+    ]
+  },
+  {
+    "author": "Tarek Nasser",
+    "date": "20-7-2022",
+    "text": "A customer complained about a delay in their order",
+    "updates": [
+      {
+        "author": "Rami Ali",
+        "date": "22-7-2022",
+        "text": "I contacted the warehouse and ordered to take special care for this order in the fastest way possible"
+      }
+    ]
+  }
+]

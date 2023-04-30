@@ -1,0 +1,55 @@
+<mat-card>
+  <div class="note">
+    <div class="author-info">
+      <div class="author-name">
+        <div class="material-icons-outlined profile-icon">account_circle</div>
+        {{ note?.author }}
+      </div>
+      <div class="date">
+        <div class="material-icons-outlined date-icon">calendar_month</div>
+        {{ note?.date }}
+      </div>
+    </div>
+    <div class="note-text">
+      <div class="material-icons-outlined text-icon">assignment</div>
+      {{ note?.text }}
+    </div>
+  </div>
+
+  <div class="no-updates" *ngIf="!anyUpdates(note)">
+    <span class="material-icons-outlined no-update-icon"> close </span>
+    There are no updates on this note!
+  </div>
+
+  <div *ngIf="anyUpdates(note)" class="updates">
+    <div class="updates" *ngFor="let update of note?.updates">
+      <div class="update-info">
+        <div class="updater-name">
+          <div class="material-icons-outlined updater-profile-icon">
+            account_circle
+          </div>
+          {{ update.author }}
+        </div>
+        <div class="update-date">
+          <div class="material-icons-outlined update-date-icon">
+            calendar_month
+          </div>
+          {{ update.date }}
+        </div>
+      </div>
+      <div class="update-text">
+        <!-- <div class="material-icons-outlined update-text-icon">assignment</div> -->
+        {{ update.text }}
+      </div>
+    </div>
+  </div>
+
+  <div class="dummy-buttons">
+    <button mat-mini-fab color="primary" matTooltip="save note">
+      <mat-icon>bookmark_added</mat-icon>
+    </button>
+    <button mat-mini-fab color="warn" matTooltip="delete note">
+      <mat-icon>delete</mat-icon>
+    </button>
+  </div>
+</mat-card>

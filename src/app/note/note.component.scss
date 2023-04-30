@@ -1,0 +1,121 @@
+mat-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-family: "Roboto", sans-serif;
+  margin: 1rem;
+  color: #424242;
+  width: 14rem;
+}
+
+.material-icons-outlined {
+  font-family: "Material Icons";
+}
+
+.author-info,
+.updater-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.author-info,
+.updater-info:hover{
+    cursor: pointer;
+}
+
+.author-name {
+  display: flex;
+  font-weight: 500;
+  gap: 0.3rem;
+  font-size: 1rem;
+}
+
+.profile-icon {
+  font-size: 1.5rem;
+}
+
+.date {
+  display: flex;
+  gap: 0.2rem;
+  font-size: 0.8em;
+  text-align: center;
+  color: #00968894;
+  margin-left: 1.7rem;
+  padding: 0.2rem;
+}
+
+.date-icon {
+  font-size: 0.9rem;
+}
+
+.note-text {
+  display: flex;
+  gap: 0.3rem;
+  //   border-radius: 3px;
+  //   border: 2px dotted rgb(0 150 136 / 16%);
+}
+
+.updates {
+  padding-bottom: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  color: #616161;
+  font-size: 0.8rem;
+  margin-left: 0.5rem;
+}
+
+.updater-name {
+  display: flex;
+  font-weight: 400;
+  gap: 0.2rem;
+  font-size: 0.8rem;
+}
+
+.updete-profile-icon {
+  font-size: 1rem;
+}
+
+.update-date {
+  display: flex;
+  gap: 0.2rem;
+  font-size: 0.8em;
+  text-align: center;
+  color: #00968894;
+  margin-left: 0.7rem;
+}
+
+.update-text {
+  display: flex;
+  gap: 0 0.3rem;
+  margin-left: 0.7rem;
+  //   border-radius: 3px;
+  //   border: 2px dotted rgb(0 150 136 / 16%);
+  border-bottom: 1px dotted rgb(0 150 136 / 28%);
+}
+
+.no-updates {
+  display: flex;
+  color: #dd2c0091;
+  text-align: center;
+}
+
+.no-update-icon {
+  font-size: 1.4rem;
+}
+
+button {
+  width: 2rem;
+  height: 2rem;
+}
+
+mat-icon {
+  font-size: 1rem;
+}
+
+.dummy-buttons{
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+    justify-content: center;
+}
